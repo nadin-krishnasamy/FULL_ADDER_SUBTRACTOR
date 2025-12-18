@@ -54,7 +54,8 @@ For different input combinations generate the timing diagram.
 
 **Program:**
 
-'''module ex4 (a,b,c,x,y,z,sum,dif,car,bor);
+```
+module ex4 (a,b,c,x,y,z,sum,dif,car,bor);
 input a,b,c,x,y,z;
 output sum,dif,car,bor;
 assign sum = a^b^c;
@@ -62,7 +63,7 @@ assign car = a&b | a&c | b&c;
 assign dif = x^y^z;
 assign bor = ~x&z | ~x&y | y&z;
 endmodule
-'''
+```
 **RTL Schematic**
 <img width="952" height="521" alt="Screenshot 2025-12-18 090236" src="https://github.com/user-attachments/assets/a5d00add-8dc9-4573-807c-76c0c0cee5ec" />
 
